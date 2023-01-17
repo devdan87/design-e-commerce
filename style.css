@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#logo{
+    width: 145px;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+padding-left: 20px;
+background: radial-gradient(blue,grey);
+}
+
+#land{
+    width: 700px;
+}
+
+.text{
+    position: relative;
+    top: 200px;
+}
+
+
+@font-face {
+    font-family: 'Hard Sports.ttf';
+    src: url(fonts/Hard\ Sports.ttf);
+}
+
+
+h1{
+    font-family:'Hard Sports.ttf';
+    font-size: 50px;
+    color: white;
+}
+
+
+@font-face {
+    font-family: 'Race Sport.ttf';
+    src: url(fonts/Race\ Sport.ttf);
+}
+
+a{
+    font-family: 'Race Sport.ttf';
+    
+}
+
+
+@font-face {
+    font-family: 'smart sport.otf';
+    src: url('fonts/smart\ sport.otf');
+}
+
+p{
+    font-family: 'smart sport.otf';
+    
+}
+
+button{
+    font-family:'Hard Sports.ttf';
+    width: 200px;
+    font-size: 40px;
+    border-radius: 20px 20px 20px 20px;
+    color: blueviolet;
+    border: 3px black solid;
+}
+
+button:hover{
+    background-color: darkcyan;
+}
